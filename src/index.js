@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', (res) => {
-  res.send('<h1>Hello World!</h1>')
+  res.send("Hello World!")
 })
 
 const startServer = async () => {
